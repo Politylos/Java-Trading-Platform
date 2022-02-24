@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CAB302-TradingPlatform" options="--add-exports java.base/com.sun.security.ntlm=ALL-UNNAMED" />
+      <module name="Server" options="--add-exports jdk.internal.vm.compiler/org.graalvm.compiler.nodes.calc=ALL-UNNAMED --add-exports java.base/com.sun.security.ntlm=ALL-UNNAMED" />
+      <module name="Shared" options="--add-exports java.base/jdk.internal.access=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
